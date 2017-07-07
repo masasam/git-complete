@@ -1,4 +1,4 @@
-;;; git-complete.el -- Yet another completion engine powered by "git grep"
+;;; git-complete.el --- Yet another completion engine powered by "git grep" -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2017- zk_phi
 
@@ -19,7 +19,9 @@
 ;; Author: zk_phi
 ;; URL: http://hins11.yu-yake.com/
 ;; Version: 0.0.0
-;; Package-Requires: ((popup "0.4"))
+;; Package-Requires: ((emacs "24.4")(popup "0.4"))
+
+;;; Commentary:
 
 ;; Load this script
 ;;
